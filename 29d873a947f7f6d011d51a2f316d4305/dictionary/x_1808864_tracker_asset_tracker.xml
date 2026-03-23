@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="56cfbfed473bf6d011d51a2f316d43be" extends="cmdb_ci" label="Asset Tracker" max_length="40" name="x_1808864_tracker_asset_tracker" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="caller" mandatory="true" max_length="32" name="caller" reference="sys_user" type="reference"/>
+    </element>
+</database>
