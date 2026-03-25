@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="56cfbfed473bf6d011d51a2f316d43be" extends="cmdb_ci" label="Asset Tracker" max_length="40" name="x_1808864_tracker_asset_tracker" type="collection">
+        <element default="20/02/2013" label="Warranty Expiry " max_length="40" name="warranty_expiry" type="glide_date"/>
+        <element label="Created" max_length="10" name="created" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Notes" max_length="4000" name="notes" type="journal"/>
+        <element default="12/12/2012" label="Purchased Date" max_length="40" name="purchased_date" type="glide_date"/>
         <element label="caller" mandatory="true" max_length="32" name="caller" reference="sys_user" type="reference"/>
         <element choice="1" default="In Storage" label="Status" max_length="40" name="status" type="choice">
             <choice>

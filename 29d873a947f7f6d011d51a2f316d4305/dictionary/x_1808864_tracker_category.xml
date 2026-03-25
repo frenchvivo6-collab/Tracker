@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="51f4ffb1477b7ad011d51a2f316d43b5" label="Category " max_length="40" name="x_1808864_tracker_category" type="collection">
+        <element default="Free-text description of the category" label="Description" max_length="255" name="description" type="string"/>
+        <element default="Laptop, Desktop, Monitor, Printer, Docking Station" display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element choice="1" default="Laptop&#13;&#10;Desktop&#13;&#10;Monitor&#13;&#10;Printer&#13;&#10;Docking Station&#13;&#10;Mobile Phone" label="Seed Data" max_length="40" name="seed_data" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Printer" value="Printer"/>
+                <element inactive_on_update="false" label="Laptop" value="Laptop"/>
+                <element inactive_on_update="false" label="Monitor" value="Monitor"/>
+                <element inactive_on_update="false" label="Mobile Phone" value="Mobile Phone"/>
+                <element inactive_on_update="false" label="Desktop" value="Desktop"/>
+                <element inactive_on_update="false" label="Docking Station" value="Docking Station"/>
+            </choice>
+        </element>
+    </element>
+</database>
