@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1808864_tracker.cost writer</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>cost writer</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-25 02:09:47</sys_created_on>
+        <sys_id>e458f7c247fbfad011d51a2f316d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1808864_tracker.cost writer</sys_name>
+        <sys_package display_value="Tracker" source="x_1808864_tracker">29d873a947f7f6d011d51a2f316d4305</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tracker">29d873a947f7f6d011d51a2f316d4305</sys_scope>
+        <sys_update_name>sys_user_role_e458f7c247fbfad011d51a2f316d4384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-25 02:09:47</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tracker">29d873a947f7f6d011d51a2f316d4305</application>
+        <file_path/>
+        <instance_id>61bd5f3947bb921021f3e676706d436e</instance_id>
+        <instance_name>dev296504</instance_name>
+        <name>sys_user_role_e458f7c247fbfad011d51a2f316d4384</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_1808864_tracker.cost writer</name><scoped_admin>false</scoped_admin><suffix>cost writer</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-25 02:09:47</sys_created_on><sys_id>e458f7c247fbfad011d51a2f316d4384</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1808864_tracker.cost writer</sys_name><sys_package display_value="Tracker" source="x_1808864_tracker">29d873a947f7f6d011d51a2f316d4305</sys_package><sys_policy/><sys_scope display_value="Tracker">29d873a947f7f6d011d51a2f316d4305</sys_scope><sys_update_name>sys_user_role_e458f7c247fbfad011d51a2f316d4384</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-25 02:09:47</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>773497144</payload_hash>
+        <record_name>x_1808864_tracker.cost writer</record_name>
+        <reverted_from/>
+        <source>c4923f8647bbfad011d51a2f316d434f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-25 02:09:47</sys_created_on>
+        <sys_id>6668bbc247fbfad011d51a2f316d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d22c1506a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-25 02:09:47</sys_updated_on>
+        <type>Role</type>
+        <update_guid>6a68bbc202fbfad0a35c40ee4acbbc42</update_guid>
+        <update_guid_history>6a68bbc202fbfad0a35c40ee4acbbc42:773497144</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1808864_tracker.cost writer">a3670d2247f7bed011d51a2f316d4335</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-26 02:33:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>87ae000117194420afc0d1183d3aa410</sys_id>
+        <sys_metadata>e458f7c247fbfad011d51a2f316d4384</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1808864_tracker.cost writer</sys_name>
+        <sys_package display_value="Tracker" source="x_1808864_tracker">29d873a947f7f6d011d51a2f316d4305</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tracker">29d873a947f7f6d011d51a2f316d4305</sys_scope>
+        <sys_scope_delete display_value="">0532df83605c4734805fb05ebcfab9e4</sys_scope_delete>
+        <sys_update_name>sys_user_role_e458f7c247fbfad011d51a2f316d4384</sys_update_name>
+        <sys_update_version display_value="sys_user_role_e458f7c247fbfad011d51a2f316d4384">6668bbc247fbfad011d51a2f316d4343</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-26 02:33:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
